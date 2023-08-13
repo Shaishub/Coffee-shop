@@ -1,0 +1,442 @@
+
+body {
+    background-color: #393c33;
+    color: #CDCFCC;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 500px;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+
+.home_container {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient( to right, rgba(0,0,0,1), rgba(0,0,0,0)), url(img/GOT7_COFFEE2.0.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.home_container h2 {
+    position: relative;
+    font-size: 30px;
+    padding-top: 200px;
+    padding-left: 120px;
+    width: 30%;
+    font-weight: 10px;
+    margin: 0;
+}
+
+.home_container h1 {
+    font-size: 80px;
+    font-family: 'Rubik', sans-serif;;
+    color: #CDCFCC;
+    font-weight: bold;
+    position: relative;
+    margin: 0;
+    padding-left: 120px;
+    padding-top: 20px;
+    width: 30%;
+}
+
+.home_container p {
+    font-size: 30px;
+    color: #CDCFCC;
+    padding-left: 130px;
+    width: 30%;
+    position: relative;
+    font-family:'Nunito';
+    font-weight: 10px;
+}
+
+.topnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    padding-left: 40px;
+    padding-top: 20px;
+    /**background-color: #805234;**/
+    
+}
+
+.topnav ul {
+    list-style: none;
+    text-align: center;
+    padding-right: 5%;
+    margin: 0;
+}
+
+.topnav li {
+    display: inline-block;
+    padding: 14px 20px;
+}
+
+.topnav a {
+    color: #CDCFCC;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+.topnav img {
+    padding-top: 2px;
+    padding-bottom: 5px;
+    padding-left: 90px;
+}
+ 
+.topnav li:hover {
+    background-color: #1B1D18;
+}
+
+
+#home_sc {
+    background-color: #1B1D18;
+}
+
+.topnav {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.menu_container {
+    background-image: linear-gradient(to left, rgba(0,0,0,1), rgba(0,0,0,0.7), rgba(0,0,0,0.4), rgba(0,0,0,0)), url(img/coffeebean_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #CDCFCC;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
+}
+
+/**Drink Section**/
+.drinks_cont {
+    height: 800px;
+}
+.drinks_title {
+  width: 45%;
+  height: 100px;
+  float: right;
+  align-items: center;
+  padding-top: 170px;
+}
+
+.drinks_title h2 {
+    font-size: 70px;
+    margin: auto;
+    padding-right: 110px;
+    font-family: 'Nunito';
+    font-weight: lighter;
+    text-align: center;
+    position: relative;;
+
+}
+
+.drinks_title p {
+    position: relative;
+    padding-right: 110px;
+    padding-top: 20px;
+    text-indent: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.drinks_sec {
+    align-items: center;
+    width: 45%;
+    padding-left: 5%;
+    padding-top: 90px;
+}
+.drinks {
+    padding-left: 10px;
+    padding-right:10px;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 15px;
+    float: left;
+    padding-bottom: 5px;
+}
+
+.drinks_sec::after {
+    content: "";
+    display: table;
+    clear:both;
+}
+ .drinks_sec img {
+    border-radius: 15px;
+    width: 180px;
+}
+ .drinks_sec h3 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0;
+}
+.drinks_sec h4 {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(213, 42, 42);
+    border: 2px white;
+    border-radius: 10px;
+}
+.drinks_sec h4:hover {
+    background-color: rgb(251, 226, 103) ;
+    color: black;
+    cursor: pointer;
+}
+
+
+/**Food Section**/
+.foods_cont {
+    height: 900px;
+    background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0.7), rgba(0,0,0,0.4), rgba(0,0,0,0) );
+}
+.foods_title {
+    width: 45%;
+    height: 100px;
+    float: left;
+    align-items: center;
+    padding-top: 170px;
+}
+  
+.foods_title h2 {
+    font-size: 70px;
+    margin: auto;
+    padding-left: 110px;
+    font-family: 'Nunito';
+    font-weight: lighter;
+    text-align: center;
+    position: relative;
+}
+  
+.foods_title p {
+    position: relative;
+    padding-left: 110px;
+    padding-top: 20px;
+    text-indent: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+  
+.foods_sec {
+    align-items: center;
+    width: 45%;
+    padding-right: 5%;
+    padding-top: 100px;
+    float: right;
+}
+
+.foods {
+    padding-right: 10px;
+    padding-left:10px;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 15px;
+    float: right;
+}
+.foods_sec::after {
+    content: "";
+    display: table;
+    clear:both;
+}
+
+.foods_sec img {
+    border-radius: 15px;
+    width: 180px;
+}
+
+.foods_sec h3 {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+.foods_sec h4 {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(213, 42, 42);
+    border: 2px white;
+    border-radius: 10px;
+}
+.foods_sec h4:hover {
+    background-color: rgb(251, 226, 103) ;
+    color: black;
+    cursor: pointer;
+}
+
+/**Music Navigation**/
+.music_container {
+    background-color:#1B1D18;
+    color: #CDCFCC;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 900px;
+    background-image: linear-gradient( rgba(0,0,0,1), rgba(0,0,0,0.7), rgba(0,0,0,0.7), rgba(0,0,0,0)), url(img/music_bg.jpg);
+    background-size: cover;
+}
+
+.music_player {
+    align-items: center;
+    float: left;
+    padding-top: 30px;
+    padding-left: 200px;
+    padding-right: 100px;
+}
+
+.music_box {
+    padding-right: 10px;
+    padding-left:10px;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 15px;
+    width: 260px;
+    float: left;
+
+}
+.music_player::after {
+    content: "";
+    display: table;
+    clear:both;
+}
+
+.music_box img {
+    width: 260px;
+    border-radius: 25px;
+}
+.music_box audio {
+    width: 260px;
+    text-align: center;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: rgba(0,0,0,0.5);
+}
+audio::-webkit-media-controls-play-button {
+    background-color: rgb(167, 39, 39);
+    border-radius: 20px;
+}
+
+.music_cont_title {
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.music_cont_title p {
+    font-size: 20px;
+}
+
+
+/**Jobs Navigation**/
+.jobs_container {
+    background-color:#1B1D18;
+    color: #CDCFCC;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 900px;
+}
+.jobs_container {
+    background-image:linear-gradient( rgba(0,0,0,1), rgba(0,0,0,0.7), rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/mark.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.job_cont_title {
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.job_cont_title p {
+    font-size: 20px;
+}
+
+.forms {
+    padding: 100px;
+    width: 500px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 40px;
+
+}
+.forms h2 {
+    border-bottom: 3px #CDCFCC;
+    padding-bottom: 30px;
+    margin: 0;
+}
+.forms label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+form .text_field {
+    position: relative;
+    margin: 20px 0;
+}
+
+.text_field input {
+    font-size: 20px ;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.forms button {
+    background-color: rgb(213, 42, 42);
+    border-radius: 20px;
+    width: 150px;
+    font-size: 20px;
+    color: white;
+      padding: 10px;
+}
+
+.file_attc {
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 30px;
+    margin: auto;
+}
+
+.forms button:hover {
+    background-color: rgb(251, 226, 103);
+    color: black;
+}
+
+footer {
+    text-align: center;
+    background-color: #131312;
+    background-image: linear-gradient( to right, rgba(0,0,0,1), rgba(0,0,0,0.7), rgba(0,0,0,0.0));
+    padding: 40px;
+    height: 200px;
+}
+footer a {
+    color: #CDCFCC;
+    text-decoration: none;
+}
+footer a:hover {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
